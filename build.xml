@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SystemExpertPourLeDiagnosticMedical" default="default" basedir=".">
+	<description>Builds, tests, and runs the project SystemExpertPourLeDiagnosticMedical.</description>
+	<import file="nbproject/build-impl.xml"/>
+</project>
+<!-- CREATED BY RAFAL FROM ROYJohan - +33632283499 -->
