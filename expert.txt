@@ -1,0 +1,22 @@
+
+        l'Expert le specialiste dans le domaine auquel se
+   rapportent ces connaissances et ici le domaine de
+   Medcin .
+
+       si vous passez au mode expert, vous serez avez
+   le droit de mettre a jour la base de connaissances
+   du systeme, ou creer un nouveau.
+       Les connaissances peuvent etre rentrees par 
+   l'expert du domaine ou  le cogniticien
+
+       Ce projet est un systeme expert d'ordre 0.
+   Il contient une base de faits initiaux,une base
+   de regles et un moteur d'inference
+                 {chainage avant et arriere}.
+   Chacunes des bases doivent
+   etre completees par un expert,ce qui en fait un
+   outil generique
+   Une fois les bases completees, l'utilisateur peut
+   effectuer des recherches par l'intermedaire du
+   moteur d'inference qui repondra a ses questions
+   de part les regles crees.

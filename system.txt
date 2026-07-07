@@ -1,0 +1,112 @@
+
+           Le travail que nous avons elabore en
+       vue de la presentation de notre memoire
+       de fin d'etudes en gestion informatique
+       consiste a developper et a mettre en oeuvre
+       un systeme expert pour le diagnostic  des
+              quelques maladies
+
+          Ce systeme expert devra permettre
+       a l'utilisateur :
+
+       1) de depister et de diagnostiquer les
+         maladies a partir des symptomes donnees
+
+       2) de donner un description sur la maladie                           resultat.
+
+      3) si l'utilisateur est un expert de domaine :
+        le system le permet de mise a jour dans la
+        base de connaissance
+
+      Un systeme expert est un systeme automatique 
+     (ensembles de programmes gerant des 
+     connaissances)
+     qui prend des decisions, effectue des deductions,
+     aboutit a des conclusions, en d autres termes,
+     simule le comportement d'un Expert humain
+     specialiste dans le domaine auquel se rapportent
+     ces connaissances.
+       - le Systeme compose de :
+
+        1/ Un Bace de Connaissance :
+                       Base de Faits + Base de Regles
+
+              Base de Faits : C'est l espace de travail,
+         memoire auxiliaire qui contient a la fois les
+         connaissances de l expert (les faits initiaux)
+         et les resultats intermediaires obtenus au cours
+         de la procedure de deduction.
+
+              Base de Regles: C est une structure de
+         donnees qui contient les connaissances propres
+         du domaine qui sont fournies par l expert.
+                     Si premisses alors conclusion
+
+
+        2/Moteur d inference :
+               - C est le noyau du SE, il met en oeuvre
+            les elements de la BC (base de connaissances)
+            pour construire des raisonnements.
+               - Il execute les inferences (deductions) au
+            cours du processus de resolution, soit par
+            modification, ajout et suppression d elements
+            a la BF (base de faits).
+
+       * Les modes de raisonnement du moteur
+          d inference se reduisent a un enchainement de
+                                 cycle de base
+              -  Un cycle de base comprend trois phases :
+          1/ Detection ;
+          2/ resolution de conflits ;
+          3/ application(Execution)
+
+                Detection : 
+         Dans cette phase,le moteur recense toutes le
+         regles susceptibles d etre mise en œuvre pour
+         donner la solution cherchee.
+                Resolution de conflits :
+         le moteur d inference va selectionner un
+         sous-ensemble de regles candidates.
+          - Chaque systeme possede ses propres
+         heuristiques de choix de declenchement
+         des regles
+               L execution :
+         declenche la regle selectionnee,
+         avec une mise a jour de la base de faits
+         et le cycle commence a nouveau
+         (relance eventuellement le fonctionnement
+         du moteur d inference).
+
+     * Mode de raisonnement  :
+           - il y a 3 mode de raisonnement d un
+           Moteur D'inference mais en utilise 
+           2 mode seulement dans ce systeme
+
+                 Chainage avant :
+           Declenchement des regles dont ces 
+           premisses sont connu (existe dans la BF)
+           jusqu'a ce que le fait a deduire soit
+           egalement connu ou qu'aucune regle
+           ne puisse etre declenchee.
+            - C est un raisonnement guide par les donnees.
+
+               Chainage Arriere:
+           etant donne un but a atteindre ou a demontrer,
+           le systeme verifie si le but correspond aux
+           faits initiaux etablis.
+           Si oui, l objectif est atteint.
+           Sinon, le systeme cherche les regles dont les
+            conclusions (ou actions) correspondent au 
+           but.
+            - Une regle est choisie et le systeme 
+           essaie de demonter tous les faits dans les
+           pre-conditions de la regle en utilisant la 
+           meme procedure considerant ces faits
+           comme des nouveaux sous buts a atteindre.
+            -Le systeme en chainage arriere n'a pas 
+           besoin de mettre a jour la memoire         
+           de travail; mais il a besoin de garder quel
+           sont les buts a atteindre.
+
+
+

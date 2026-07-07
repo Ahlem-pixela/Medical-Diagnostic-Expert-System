@@ -1,0 +1,40 @@
+
+        lorsque vous passez au mode patient, vous devez
+    remplir tous les champs pour obtenir le droit
+    d'utiliser le diagnostic.
+
+    il y a deux types de diagnostic:
+
+       - recherch en chinage avant :
+             choisir les numeros du symptome que vous 
+             avez et l'ecrire dans le champ de texte, 
+             (fait1; fait2 ... faitn;)
+             Ne pas oublier de separer les numéros des
+              symptomes avec ";"  
+
+                - apres avoir note tous les symptomes que
+           vous avez cliquez sur le bouton   " effectuer "
+                - pour voir le resultat final de la recherche,
+          cliquez sur le bouton   " resultat final "
+               - pour voir les progres de la recherche,
+          cliquez sur le bouton   " Explication "  
+
+       - recherch en chinage arriere :
+              vous choisissez cette recherche si
+           vous avez une pensee sur le maladie
+           que vous avez .
+
+           - chercher le maladie que vous avez dans la
+          liste des symptomes et d'ecrire son numero
+          dans le champ de l'objectif,
+          et ne pas oublier de mettre fin avec ";"
+          - puis notez tous les symptomes que vous avez,
+          dans le champ (fait1; fait2; .... faitn)
+           notez les numeros des symptomes que
+           vous avez et les separer par ";"
+         - apres avoir note tous les symptomes que
+          vous avez cliquez sur le bouton " effectuer "
+         - pour savoir si votre fille avait raison ou tort,
+           cliquez sur le bouton " resultat final "
+         - pour voir les progres de la recherche,
+           cliquez sur le bouton " Explication "  
