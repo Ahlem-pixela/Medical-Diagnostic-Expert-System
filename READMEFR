@@ -1,0 +1,43 @@
+
+---
+
+## README.md en français
+
+```markdown
+# Système Expert pour le Diagnostic Médical
+
+## Présentation
+
+Ce projet consiste en la conception et le développement d'un **Système Expert pour le Diagnostic Médical** réalisé en Java.
+
+L'objectif est de reproduire le raisonnement d'un expert humain à travers un système basé sur les connaissances médicales fournies par un médecin spécialiste.
+
+Le système utilise une base de connaissances composée d'une **base des faits** et d'une **base des règles** afin d'analyser les symptômes d'un patient et proposer un diagnostic possible.
+
+Ce projet met en pratique les concepts de l'**Intelligence Artificielle**, notamment les systèmes experts basés sur les règles et les moteurs d'inférence.
+
+## Fonctionnalités
+
+- Interface graphique développée en Java.
+- Saisie des symptômes du patient.
+- Analyse automatique basée sur les connaissances médicales.
+- Utilisation d'une base des faits contenant les informations médicales.
+- Utilisation d'une base des règles représentant le raisonnement du médecin expert.
+- Moteur d'inférence permettant d'appliquer les règles et générer un diagnostic.
+- Séparation entre la partie connaissance et la partie raisonnement.
+
+## Architecture du Système
+
+Le système est composé de trois parties principales :
+
+### 1. Base de connaissances
+
+Elle contient les connaissances fournies par le médecin expert :
+
+- **Base des faits :**
+  Ensemble des symptômes et informations médicales utilisées par le système.
+
+- **Base des règles :**
+  Ensemble des règles représentant le raisonnement médical.
+
+Exemple :
