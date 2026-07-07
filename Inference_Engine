@@ -1,0 +1,27 @@
+
+### 2. Inference Engine
+
+The inference engine is responsible for:
+
+- Analyzing user inputs.
+- Applying medical rules.
+- Searching for matching conditions.
+- Producing possible diagnostic results.
+
+### 3. User Interface
+
+A graphical interface allows users to:
+
+- Enter patient symptoms.
+- Interact with the expert system.
+- Display diagnostic suggestions.
+
+## Technologies Used
+
+- **Programming Language:** Java
+- **GUI Development:** Java Swing
+- **IDE:** NetBeans
+- **Artificial Intelligence Concept:** Rule-Based Expert System
+- **Knowledge Representation:** Facts and Rules
+
+## Project Structure
